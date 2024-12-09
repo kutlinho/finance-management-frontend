@@ -4,9 +4,14 @@ import UsernameInput from "../components/inputs/UsernameInput";
 import PasswordInput from "../components/inputs/PasswordInput";
 
 function LoginForm() {
+    const styles = {
+        form: {
+            marginTop: 10
+        }
+    }
     return (
         <div>
-            <Form>
+            <Form style={styles.form}>
                 <UsernameInput/>
                 <PasswordInput/>
             </Form>
