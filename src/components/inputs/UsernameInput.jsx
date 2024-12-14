@@ -4,9 +4,9 @@ import {Form, Input} from "antd";
 function UsernameInput() {
     const styles = {
         usernameInput: {
-            width: "20%",
             display: "flex",
             flexDirection: "column",
+            width: "50%",
         }
     }
 
